@@ -1,3 +1,12 @@
+### improve1.ipynb
+改良例1のプログラム
 
-#h3 dynamic_web_site_scraping.ipynb
-動的Webサイトから、スクレイピングするプログラム
+### improve2.ipynb
+改良例2のプログラム
+
+### static_web_site_scraping.ipynb
+静的Webサイトからスクレイピングするプログラム
+
+### dynamic_web_site_scraping.ipynb
+動的Webサイトからスクレイピングするプログラム
+
