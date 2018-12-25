@@ -7,6 +7,9 @@
 ### improve2.ipynb
 改良例2のプログラム
 
+### mecab_example.ipynb
+meacbの実装例
+
 ### static_web_site_scraping.ipynb
 静的Webサイトからスクレイピングするプログラム
 
