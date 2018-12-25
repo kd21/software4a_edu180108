@@ -1,3 +1,6 @@
+### studentcard_and_mainshopcharger.ipynb
+ベースとなるクラス構造のプログラム
+
 ### improve1.ipynb
 改良例1のプログラム
 
