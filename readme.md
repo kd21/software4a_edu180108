@@ -1,5 +1,5 @@
 ### studentcard_and_mainshopcharger.ipynb
-冬季課題1終了時点でのプログラムの例です.
+冬季課題1終了時点でのプログラムの例です.<br>
 このプログラムに加筆、修正を行い、improve1.ipynbとimprove2.ipynbを作成しています.
 
 ### improve1.ipynb
