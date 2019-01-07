@@ -17,3 +17,15 @@ meacbの実装例
 ### dynamic_web_site_scraping.ipynb
 動的Webサイトからスクレイピングするプログラム
 
+---
+
+### 静的WEBサイト、動的WEBサイトを作成するのに使ったもの
+[GitHub Pages](https://pages.github.com/)
+
+### スライドを作るのに参考にしたサイト
+[GitPitch](https://gitpitch.com/)
+[GitPitch参考サイト](https://github.com/kakisoft/HowToUseGitPitch)
+[plantuml](https://plantuml-editor.kkeisuke.com/)
+[plantuml参考サイト](http://yohshiy.blog.fc2.com/blog-entry-156.html)
+[SVG画像をリサイズしたサイト](https://www.iloveimg.com/ja/resize-image/resize-svg)
+[SVG→PNGしたサイト](https://svgtopng.com/ja/)
