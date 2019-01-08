@@ -1,3 +1,6 @@
+### [スライド](https://gitpitch.com/kd21/for_TA)
+
+
 ### studentcard_and_mainshopcharger.ipynb
 冬季課題1終了時点でのプログラムの例です.<br>
 このプログラムに加筆、修正を行い、improve1.ipynbとimprove2.ipynbを作成しています.
