@@ -23,14 +23,14 @@
 
 ---
 @snap[north-west]
-#### **①HTMLの描画例 [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://github.com/kd21/in-60-seconds/tree/master/docs)**
+#### **①HTMLの描画例**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="800" css="border: medium double #ff00ff;">
 </a>
 ---?code=assets/src/static_website_scraping.py&lang=python
 @snap[north-west]
-#### **①pythonで静的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
+#### **①pythonで静的なサイトのWebスクレイピング**
 @snapend
 @[1-2](requestsとBeautifulSoupというライブラリを使います)
 @[4](ここでスクレイピングしたいサイトのURLを書き込みます)
@@ -46,7 +46,7 @@
 
 ---
 @snap[north-west]
-#### **②例のサイトが動的サイトの場合　[@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://github.com/kd21/in-60-seconds/tree/master/docs)**
+#### **②例のサイトが動的サイトの場合　**
 @snapend
 <table border="0">
 <tr>
@@ -62,7 +62,7 @@
 
 ---?code=assets/src/dynamic_website_scraping.py&lang=python
 @snap[north-west]
-##### **②Pythonで動的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
+##### **②Pythonで動的なサイトのWebスクレイピング**
 @snapend
 @[1-3](BeautifulSoupとseleniumというライブラリを使います)
 @[5](ここでスクレイピングしたいサイトのURLを書き込みます)
@@ -73,7 +73,7 @@
 
 ---?code=assets/src/mecab_example.py&lang=python
 @snap[north-west]
-##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
+##### **③形態素解析**
 @snapend
 @[1-2](Mecabというライブラリを使います)
 @[4](tokenized_textにテキストをトークン化した結果が文字列で保存されます（どのような文字列で保存されるか気になる人はtokenized_textをprintしてみてください）)
@@ -83,13 +83,13 @@
 
 ---
 @snap[north-west]
-##### **現状のクラス [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
+##### **現状のクラス**
 ![Base_Class](assets/img/base.png)
 @snapend
 
 ---
 @snap[north-west]
-##### **改良1：チャージ機におみくじ機能をつける [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
+##### **改良1：チャージ機におみくじ機能をつける**
 <br>
 ###### おみくじ機能の発行条件
 @ul[](false)
@@ -144,18 +144,4 @@
 @snapend
 ![Improve2_Result](assets/img/improve2_result.png)
 
----
-@snap[north-west]
-#### **付録一覧**
-@snapend
-@snap[west span-100]
-@ul[](false)
-- 静的Webサイトの例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 動的Webサイトの例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 静的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 動的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 形態素解析により、形態素に切り分け、品詞を特定するプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- ベースとなる冬季課題1終了時点のプログラム例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/)
-- 改良1のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 改良2のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-@ulend
+
