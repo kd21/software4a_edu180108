@@ -22,9 +22,6 @@ meacbの実装例
 
 ---
 
-### 静的WEBサイト、動的WEBサイトを作成するのに使ったもの
-* [GitHub Pages](https://pages.github.com/)
-
 ### スライドを作るのに参考にしたサイト
 * [GitPitch](https://gitpitch.com/)
 * [GitPitch参考サイト](https://github.com/kakisoft/HowToUseGitPitch)
