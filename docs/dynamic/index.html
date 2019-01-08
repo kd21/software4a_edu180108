@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>本のランキングサイト見本</title>
+    <script type="text/javascript">
+      books = document.getElementById("target");
+      var div="<div>hoge + i</div>"
+      books.appendChild(div);
+    </script>
+  </head>
+  <body>
+    <div class="top">
+      本のランキングサイト見本
+    </div>
+    <div class="main-content">
+      <h3>ここからランキング</h3>
+      <div class="books" id="target">
+      </div>
+    </div>
+    <style type="text/css">
+    <!--
+    div.book {width: 80%; margin-top: 10px; background-color: #ffcc00;}
+    div.bookimg {width:80px; height:80px; background-color: #999999}
+      -->
+    </style>
+    <script>
+      function getCSV() {
+        var req = new XMLHttpRequest();
+        req.open('get', 'data.csv', true);
+        req.send(null);
+        req.onload = function() {
+          setCSV(req.responseText);
+        };
+      }
+      function setCSV(str) {
+        var data = [];
+        var dataArr;
+        var r = document.getElementById('target');
+        var tmp = str.split('\n');
+        tmp.forEach(x => {
+          dataArr = x.split(',');
+          if (dataArr[0]) {
+            data.push(dataArr.map(x => x.trim()));
+          }
+        });
+        var t = '';
+        data.forEach(x => {
+          t += `<div class="book"><div class="bookimg">本の画像</div><span class="title">${x[0]}</span><span class="cost">${x[1]}</span></div>`;
+        });
+        r.innerHTML = t;
+      }
+      getCSV();
+    </script>
+  </body>
+</html>
